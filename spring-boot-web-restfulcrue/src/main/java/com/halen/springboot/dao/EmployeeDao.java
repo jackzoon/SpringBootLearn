@@ -1,14 +1,14 @@
-package com.atguigu.springmvc.crud.dao;
+package com.halen.springboot.dao;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.halen.springboot.entities.Department;
+import com.halen.springboot.entities.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.atguigu.springmvc.crud.entities.Department;
-import com.atguigu.springmvc.crud.entities.Employee;
 
 @Repository
 public class EmployeeDao {

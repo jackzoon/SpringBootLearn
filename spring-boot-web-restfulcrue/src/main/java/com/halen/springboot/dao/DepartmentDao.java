@@ -1,12 +1,13 @@
-package com.atguigu.springmvc.crud.dao;
+package com.halen.springboot.dao;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.halen.springboot.entities.Department;
 import org.springframework.stereotype.Repository;
 
-import com.atguigu.springmvc.crud.entities.Department;
+
 
 @Repository
 public class DepartmentDao {
